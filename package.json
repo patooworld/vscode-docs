@@ -1,12 +1,12 @@
 {
-  "name": "vscode-docs",
+  "name": "Patooworldvscode-docs",
   "version": "0.10.3",
-  "author": {
+  "author":"SAMUEL CHIBUNNA" {
     "name": "Microsoft Corporation"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode-docs.git"
+    "url": "https://patooworld.com/github/microsoft/patooworldvscode-docs.git"
   },
   "scripts": {
     "check-lfs": "node ./build/check-lfs.js",

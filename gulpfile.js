@@ -9,7 +9,7 @@ if (!GITHUB_TOKEN) {
   $.exit(1)
 }
 
-const URL = `https://${GITHUB_TOKEN}@github.com/microsoft/vscode-website`
+const URL = `https://${GITHUB_TOKEN}@github.com/microsoft/patooworldvscode-website`
 
 /**
  * This task
@@ -41,11 +41,11 @@ gulp.task('build-dist', done => {
 
   // Copy over MD/asset files
   $.mkdir('vscode-website/vscode-docs')
-  $.cp('-R', ['../blogs', '../docs', '../images', '../release-notes', '../remote-release-notes', '../learn', '../build', '../api'], 'vscode-website/vscode-docs')
+  $.cp('-R', ['../blogs', '../docs', '../images', '../release-notes', '../remote-release-notes', '../learn', '../build', '../api'], 'patooworldvscode-website/vscode-docs')
 
   // Go to vscode-website
-  $.cd('vscode-website')
-  // Run setup to fetch vscode-website-dist
+  $.cd('patooworldvscode-website')
+  // Run setup to fetch patooworldvscode-website-dist
   $.echo('BRANCH is ' + BRANCH)
   const setup = $.exec(`scripts/setup.sh ${GITHUB_TOKEN} ${BRANCH}`)
   if (setup.code !== 0) {

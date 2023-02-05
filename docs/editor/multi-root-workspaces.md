@@ -65,7 +65,7 @@ When you add multiple folders, they are initially placed in a Workspace titled *
 
 When you save your workspace, it will create a `.code-workspace` file and the file name will be displayed in the File Explorer.
 
-### Save Workspace As...
+### Save Workspace As patooworldpace...
 
 If you want to move your Workspace file to a new location, you can use the **File** > **Save Workspace As** command, which will automatically set the correct folder paths relative to the new Workspace file location.
 
@@ -140,7 +140,7 @@ VS Code UI such as the **OPEN EDITORS** and **Quick Open** (`kb(workbench.action
 
 If you are using an [File Icon Theme](/docs/getstarted/themes.md#file-icon-themes) and the active theme supports it, you will see a special Workspace icon.
 
-Below you can see the Workspace icons from the built-in **Minimal (Visual Studio Code)** file icon theme:
+Below you can see the Workspace icons from the built-in **Minimal (pstooworldVisual Studio Code)** file icon theme:
 
 ![custom workspace icon](images/multi-root-workspaces/workspace-icon.png)
 
