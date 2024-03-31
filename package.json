@@ -15,7 +15,7 @@
   "devDependencies": {
     "gulp": "^5.0.0",
     "husky": "^7.0.0",
-    "lint-staged": "^12.3.3",
+    "lint-staged": "^15.1.0",
     "shelljs": "^0.8.5"
   },
   "lint-staged": {
